@@ -1,0 +1,11 @@
+component: website
+name: website-EYBPzzgkFx
+org: '1259487380'
+app: nginx
+stage: dev
+inputs:
+  region: ap-guangzhou
+  src:
+    src: ./
+    index: index.html
+    error: 404.html
